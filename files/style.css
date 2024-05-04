@@ -9,6 +9,18 @@ body{
     overflow-x: hidden;
 }
 
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 93px;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    gap: 17px;
+    cursor: pointer;
+}
 .container{
     display: flex;
 overflow-x: hidden;
@@ -18,8 +30,8 @@ justify-content: space-between;
 align-items: center;
 width: 100%;
 z-index: 33;
-margin-top: 16px;
-padding-right: 13px;
+margin-top: 12px;
+padding-right: 14px;
 }
 
 .nav ul{
@@ -27,7 +39,12 @@ padding-right: 13px;
  list-style: none;
     padding: 2px;
     gap: 20px;
+   
 
+}
+nav ul li{
+    padding: 4px;
+    border-radius: 3px;
 }
 .logo{
     
@@ -42,10 +59,13 @@ padding-right: 13px;
 .icons{
   display: flex;
     align-items:center;
-    font-size: 20px;
+    font-size: 23px;
     gap: 10px;
     cursor: pointer;
    font-weight: 100;
+}
+.icons i{
+    padding: 3px;
 }
 .nav ul li:hover,.icons i:hover{
     background-color:hsla(0, 39%, 24%, 0.205);
@@ -108,10 +128,11 @@ background-size: 115%;
     background-image: url("/images/Homepage-image7.avif");
 }
 .image-8{
-    background-image: url("/images/Homepage-image8.avif");
+    background-image: url("/images/Homepage-image8.avif") ;
 }
 .image-9{
-    background-image: url("/images/Homepage-image9.avif");
+    background-image: url("/images/Homepage-image9.avif")    ;
+ 
 }
 
 
@@ -132,6 +153,9 @@ background-size: 115%;
  }
  .space-8{
     height: 300px;
+ }
+ .space-9{
+    height:  275px;
  }
 
 
@@ -245,4 +269,10 @@ background-size: 115%;
     justify-content: center;
 
  }
- 
+  .button-last-section{
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    gap: 20px;
+
+  }

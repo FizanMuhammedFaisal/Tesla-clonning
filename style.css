@@ -107,33 +107,33 @@ nav ul li{
     background-color: black;
 }
 .image-1{
-    background-image: url("../images/homepage-image1.avif");
+    background-image: url("./images/homepage-image1.avif");
 }
 .image-2{
-    background-image: url("/images/Homepage-image2.avif");
+    background-image: url("./images/Homepage-image2.avif");
 }
 .image-3{
-    background-image: url("/images/Homepage-image3.avif");
+    background-image: url("./images/Homepage-image3.avif");
 background-size: 115%;
    background-position-x: -120px;
 }
 .image-4{
-    background-image: url("/images/Homepage-image4.avif");
+    background-image: url("./images/Homepage-image4.avif");
 }
 .image-5{
-    background-image: url("/images/Homepage-image5.avif");
+    background-image: url("./images/Homepage-image5.avif");
 }
 .image-6{
-    background-image: url("/images/Homepage-image6.avif");
+    background-image: url("./images/Homepage-image6.avif");
 }
 .image-7{
-    background-image: url("/images/Homepage-image7.avif");
+    background-image: url("./images/Homepage-image7.avif");
 }
 .image-8{
-    background-image: url("/images/Homepage-image8.avif") ;
+    background-image: url("./images/Homepage-image8.avif") ;
 }
 .image-9{
-    background-image: url("/images/Homepage-image9.avif")    ;
+    background-image: url("./images/Homepage-image9.avif")    ;
  
 }
 
@@ -255,8 +255,6 @@ background-size: 115%;
 .co-black{
     color: black;
 }
-
-
 
 
  .button-section{
